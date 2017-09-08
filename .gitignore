@@ -1,0 +1,5 @@
+syntax: globa
+
+*.pdf
+*.log
+*.aux
