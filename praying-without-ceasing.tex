@@ -4,6 +4,7 @@
 \usepackage{lettrine}
 \usepackage{xcolor}
 \usepackage{verse}
+\usepackage{fancyhdr}
 
 % BLUES
 \definecolor{benblue1}{HTML}{2B22C7}
@@ -15,17 +16,19 @@
 \author{Fr Cassian Folsom OSB}
 
 \newenvironment{poem}
-  {\begin{center}\begin{itshape}\begin{verse}
+  {\begin{itshape}\begin{verse}
   }
-  {\end{verse}\end{itshape}\end{center}
+  {\end{verse}\end{itshape}
   }
 
 \begin{document}
 
 \maketitle
 
+\pagestyle{empty}
+
 \begin{poem}
-O lux beata Trinitas, \\
+\textsc{O lux} beata Trinitas, \\
 et principalis Unitas, \\
 iam sol recedit igneus, \\
 infunde lumen cordibus.
@@ -40,6 +43,8 @@ eiusque soli Filio, \\
 cum Spiritu Paraclito, \\
 et nunc, et in perpetuum.
 \end{poem}
+
+\newpage
 
 Fr Cassian was invited to St Benedict's Abbey in Still River, Massachusetts in the early October 2013 to give a series of conferences on praying without ceasing. Drawing on Scripture, the Liturgy and the Fathers, Fr Cassian gives us some tips on how to pray better. In this day and age, we want quick fixes and easy answers, but we can only learn to pray better by doing it more frequently and this takes time.
 
